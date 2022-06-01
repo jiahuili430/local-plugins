@@ -2,5 +2,6 @@ Test Rebar3 Local Plugins
 =====
 
 ```bash
-./rebar3 todo
+rm -rf _build
+./rebar3 todo # Error: Command todo not found
 ```
